@@ -1,5 +1,5 @@
 #headerh1{
-    color: darkgreen;
+    color: #046A38;
     float: top;
     font-family: monospace;
     font-size: 25px;
@@ -9,8 +9,8 @@
     font-size: 15px;
     text-align: center;
     padding: 7px;
-    color: darkgreen;
-    border-color: goldenrod;
+    color: #046A38;
+    border-color: #B9975b;
 }
 
 .dropdown {
