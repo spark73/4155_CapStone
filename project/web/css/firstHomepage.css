@@ -1,0 +1,123 @@
+
+#headerh1{
+    color: #046A38;
+    text-align: top left;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#navibar{
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+    color: #046A38;
+    border-color: #B9975b;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+ 
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#uncc{
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#pay{
+    /*change background color and font color to match uncc theme*/
+    font-size: 25px;
+    padding: 5px;
+    background-color: #b9975b;
+    border: solid 5px #046A38;
+}
+
+#fav{
+    /*change background color and font color to match uncc theme*/
+    font-size: 25px;
+    padding: 5px;
+    background-color: #b9975b;
+    border: solid 5px #046A38;
+}
+
+#feedback{
+    /*change background color and font color to match uncc theme*/
+    font-size: 25px;
+    padding: 5px;
+    background-color: #b9975b;
+    border: solid 5px #046A38;
+}
+
+#settings{
+    /*change background color and font color to match uncc theme*/
+    font-size: 25px;
+    padding: 5px;
+    background-color: #b9975b;
+    border: solid 5px #046A38;
+}
+#gallery {
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+}
+
+h3 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    color: #046A38;
+}
+ol li {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 35px;
+}
