@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <title>UNCC Food Delivery</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/firstHomepage.css">
 </head>
+<div class="clearfix">
+    <div id="uncc">
 
-<div id="uncc">
-    <img src="img/uncc.png" alt="uncc logo" height="100" width="100">
+        <img src="img/uncc.png" alt="uncc logo" height="100" width="100">
+    </div>
+
+    <div id="headerh1">
+        <h1>UNCC Food Delivery</h1>
+    </div>
 </div>
-
 <body>
 
 <main>
     <br>
     <br>
     <!-- Navigation bar constant throughout all the webpages -->
-    <nav class="naviBar">
-        <a href="firstHomepage.html">&nbsp;Home&nbsp;</a>
+    <nav id="naviBar">
+        <p style="text-align: left;">
+            <a href="firstHomepage.html">&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="profile.html">&nbsp;Profile&nbsp;&nbsp;&nbsp;</a>
+            <a href="signin.html">Sign In </a>
+        </p>
+        
 
         <div class="dropdown">
-            <button class="dropdown">&nbsp;Restaurants&nbsp;</button>
+            <button class="dropdown">&nbsp;Restaurants&nbsp;&nbsp;&nbsp;</button>
             <div class="dropdown-content">
-                <a href="starbucks.html"> Starbuck</a>
+                <a href="starbucks.html"> Starbucks </a>
                 <p></p>
                 <a href="bojangles.html"> Bojangles </a>
+                <p></p>
+                <a href="wendys.html"> Wendy's </a>
+                <p></p>
+                <a href="cfa.html"> Chick Fil A </a>
+                <p></p>
+                <a href="bagels.html"> Einstein Bagels </a>
+                <p></p>
             </div>
         </div>
-
-        <a href="profile.html">&nbsp;Profile&nbsp;</a>
-        <a href="signin.html">&nbsp;Sign In&nbsp;</a>
     </nav>
-
-    <div id="starbucks">
-
-        <br>
-        <br>
-        <br>
-        <img src="img/starbucks.png" alt="starbuck's logo" height="50" width="50">
-    </div>
-
-    <h1> Starbucks Menu</h1>
 </main>
+
+<figure>
+    <p style="text-align: center;">
+        <img src="img/starbucks.png" alt="starbucks logo" height="200" width="200"/>
+    </p>
+    <p style="text-align: center;">
+        <img src="img/starbucks_menu.png" alt="starbucks menu" height="600" width="1000">
+    </p>
+  
+</figure>
 
 
 </body>
-
 </html>
